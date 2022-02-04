@@ -1,5 +1,12 @@
 # Tracker
 
+Should note several thing:
+1. Developing of this tracker was aimed to achieve reliability. Topological methods allows us to consider all properties of comet (spatial or time) as whole thing.
+2. By tracker we found correlation between comets tail and velocity. However, it also mean that we have proof that our tracker works correctly (more or less). Because if you see no correlation it does not mean it does not exist. It can mean that tracker is not capable to find it. In this case, there can be possibility that all data obtained by tracker can be wrong. In our case we sure in reliability of our tracker.
+3. Result of using this tracker was published: https://www.frontiersin.org/articles/10.3389/fmolb.2021.745089/full
+
+
+
 Code is devoted to accurate tracking biological objects comets. These objects are part of cell skeleton. This program takes as input sequence of microscope images. It allows finding dependence of comet tail length of comet on it velocity. Code consists of matlab scripts and using standard matlab functions, but main function related to topology was developed by c++ code and mex matlab functional. Workability was tested only for windows and matlab version higher than 2017a, but we did running this code on matlab in ubuntu ver 20.04. So far this code works correctly only with our microscopic images. If you want to use your own images, there is possible the adjustment of parameters will be required. Without this correct work of this code is not guaranteed.
 
 You can download test data of comets images: (reference : https://disk.yandex.ru/d/LtyWWTgLprQXLA) 
