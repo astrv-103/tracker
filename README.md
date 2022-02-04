@@ -4,7 +4,7 @@ Should note several thing:
 1. Developing of this tracker was aimed to achieve reliability. Topological methods allows us to consider all properties of comet (spatial or time) as whole thing.
 2. By tracker we found correlation between comets tail and velocity. However, it also mean that we have proof that our tracker works correctly (more or less). Because if you see no correlation it does not mean it does not exist. It can mean that tracker is not capable to find it. In this case, there can be possibility that all data obtained by tracker can be wrong. In our case we sure in reliability of our tracker.
 3. Result of using this tracker was published: https://www.frontiersin.org/articles/10.3389/fmolb.2021.745089/full
-4. This tracker allows to find grate range of comet properties (statistical or dynamic) not only velocity and tail. I am ready to cooperate. If you need anything, just let me know.
+4. This tracker allows to find greate range of comet properties (statistical or dynamic) not only velocity and tail. I am ready to cooperate. If you need anything, just let me know.
 
 
 
